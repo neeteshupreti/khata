@@ -1,0 +1,90 @@
+# ============================================================
+# Flutter specific ignores
+# ============================================================
+.dart_tool/
+.build/
+/packages/
+/build/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-tools/
+.pub/
+.packages
+.pubspec.lock
+
+# ============================================================
+# Android specific ignores
+# ============================================================
+/android/.gradle/
+/android/local.properties
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+/android/key.properties
+*.jks
+*.keystore
+/android/app/src/main/kotlin/**/*.iml
+**/gradle-wrapper.jar
+
+# ============================================================
+# iOS specific ignores
+# ============================================================
+/ios/Pods/
+/ios/.DartServer.dart/
+/ios/Flutter/AppFrameworkInfo.plist
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/debug.xcconfig
+/ios/Flutter/generated.xcconfig
+/ios/Flutter/generated_plugin_registrant.swift
+/ios/Flutter/Debug.xcconfig
+/ios/Flutter/Release.xcconfig
+/ios/Flutter/profile.xcconfig
+/ios/.symlinks/
+/ios/Runner.xcworkspace/
+/ios/Runner.xcodeproj/
+/ios/Runner.xcuserdatad/
+/ios/Flutter/podfile.local
+/ios/Flutter/podhelper.rb
+
+# ============================================================
+# Crucial Firebase / Security ignores
+# ============================================================
+/android/app/google-services.json
+/lib/firebase_options.dart
+**/*.env
+**/.env
+**/.env.*
+.env
+.env.*
+*.local
+secrets.properties
+
+# ============================================================
+# OS specific ignores
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+*~.tmp
+
+# ============================================================
+# IDE specific ignores
+# ============================================================
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+.gradle/
+.classpath
+.project
+.settings/

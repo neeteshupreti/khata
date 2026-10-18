@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 12+ (API 31) splash screen.
+         We only set the background colour and windowBackground.
+         The windowSplashScreenAnimatedIcon is intentionally omitted because
+         a <bitmap> drawable can cause the splash to hang on some devices.
+         Flutter draws its first frame (which replaces the splash) very
+         quickly, and the logo is already in the windowBackground drawable. -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowSplashScreenBackground">@android:color/white</item>
+        <item name="android:windowBackground">@drawable/launch_background</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:navigationBarColor">@android:color/white</item>
+    </style>
+
+    <!-- NormalTheme applied after the splash fades out -->
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>
